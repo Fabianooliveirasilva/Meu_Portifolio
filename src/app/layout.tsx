@@ -21,23 +21,23 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://portfolio-futuristic.vercel.app"),
-  title: "Fabiano Silva | QA Engineer & Front-End Developer",
+  title: "FABIANO OlIVEIRA SILVA | QA Engineer & Full-Stack Developer",
   description:
     "Portfólio moderno com experiências web premium, animações fluidas e interações 3D.",
   keywords: [
     "QA Engineer",
-    "Front-End Developer",
+    "Full-Stack Developer",
     "Next.js",
     "TypeScript",
     "Three.js",
     "Portfolio",
   ],
   openGraph: {
-    title: "Fabiano Silva | Portfolio",
+    title: "FABIANO OlIVEIRA SILVA | Portfolio",
     description:
       "Experiências de front-end e QA com design futurista, performance e 3D interativo.",
     url: "https://portfolio-futuristic.vercel.app",
-    siteName: "Fabiano Portfolio",
+    siteName: "FABIANO OlIVEIRA SILVA Portfolio",
     locale: "pt_BR",
     type: "website",
   },

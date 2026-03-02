@@ -52,7 +52,7 @@ export const timeline = [
   },
   {
     year: "2024",
-    title: "Front-End Developer",
+    title: "Full-Stack Developer",
     description:
       "Entrega de interfaces escaláveis, acessíveis e com foco em performance.",
   },

@@ -1,4 +1,4 @@
-# Meu Portfólio — QA Engineer & Front-End Developer
+# Meu Portfólio — QA Engineer & Full-Stack Developer
 
 [![Deploy Vercel](https://img.shields.io/badge/Deploy-Vercel-000000?logo=vercel&logoColor=white)](https://my-portfolio-azure-beta-74.vercel.app)
 ![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=nextdotjs)

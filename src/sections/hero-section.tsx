@@ -27,10 +27,10 @@ export function HeroSection() {
             Portfolio 2026
           </p>
           <h1 className="text-foreground text-4xl leading-tight font-black sm:text-6xl">
-            FABIANO <span className="text-neon-blue">SILVA</span>
+            FABIANO <span className="text-neon-blue">OlIVEIRA SILVA</span>
           </h1>
           <p className="text-foreground/80 mt-4 max-w-xl text-lg sm:text-xl">
-            QA Engineer &amp; Front-End Developer
+            QA Engineer &amp; Full-Stack Developer
           </p>
 
           <div className="mt-8 flex flex-wrap gap-3">
