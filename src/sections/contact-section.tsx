@@ -2,10 +2,32 @@
 
 import { motion } from "framer-motion";
 import { Github, Linkedin } from "lucide-react";
+import { FormEvent, useState } from "react";
 
 import { socialLinks } from "@/lib/data";
 
 export function ContactSection() {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  const contactEmail =
+    process.env.NEXT_PUBLIC_CONTACT_EMAIL &&
+    process.env.NEXT_PUBLIC_CONTACT_EMAIL.includes("@")
+      ? process.env.NEXT_PUBLIC_CONTACT_EMAIL
+      : socialLinks.email;
+
+  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+
+    const subject = encodeURIComponent(`Contato via Portfólio - ${name || "Sem nome"}`);
+    const body = encodeURIComponent(
+      `Nome: ${name}\nE-mail: ${email}\n\nMensagem:\n${message}`,
+    );
+
+    window.location.href = `mailto:${contactEmail}?subject=${subject}&body=${body}`;
+  };
+
   return (
     <section className="px-6 pt-20 pb-24" id="contact">
       <div className="mx-auto max-w-6xl">
@@ -21,23 +43,32 @@ export function ContactSection() {
             Vamos construir algo de alto impacto. Me envie uma mensagem.
           </p>
 
-          <form className="mt-8 grid gap-4">
+          <form className="mt-8 grid gap-4" onSubmit={handleSubmit}>
             <input
               className="text-foreground focus:border-neon-blue rounded-xl border border-white/15 bg-black/25 px-4 py-3 text-sm transition outline-none"
               name="name"
               placeholder="Seu nome"
               type="text"
+              value={name}
+              onChange={(event) => setName(event.target.value)}
+              required
             />
             <input
               className="text-foreground focus:border-neon-blue rounded-xl border border-white/15 bg-black/25 px-4 py-3 text-sm transition outline-none"
               name="email"
               placeholder="Seu e-mail"
               type="email"
+              value={email}
+              onChange={(event) => setEmail(event.target.value)}
+              required
             />
             <textarea
               className="text-foreground focus:border-neon-blue min-h-32 rounded-xl border border-white/15 bg-black/25 px-4 py-3 text-sm transition outline-none"
               name="message"
               placeholder="Sua mensagem"
+              value={message}
+              onChange={(event) => setMessage(event.target.value)}
+              required
             />
             <button
               className="from-neon-blue to-neon-purple hover:shadow-neon w-fit rounded-full bg-gradient-to-r px-6 py-3 text-sm font-bold text-black transition hover:scale-[1.03]"
@@ -45,6 +76,9 @@ export function ContactSection() {
             >
               Send Message
             </button>
+            <p className="text-foreground/60 text-xs">
+              O envio abre seu cliente de e-mail para: {contactEmail}
+            </p>
           </form>
 
           <div className="mt-8 flex items-center gap-4">

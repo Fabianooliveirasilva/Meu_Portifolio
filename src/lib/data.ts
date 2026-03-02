@@ -65,5 +65,6 @@ export const timeline = [
 
 export const socialLinks = {
   linkedin: "https://linkedin.com/in/seu-usuario",
-  github: "https://github.com/seu-usuario",
+  github: "https://github.com/Fabianooliveirasilva",
+  email: "seu-email@dominio.com",
 };
