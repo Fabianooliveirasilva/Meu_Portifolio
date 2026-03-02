@@ -1,6 +1,15 @@
 # Meu Portfólio — QA Engineer & Front-End Developer
 
+[![Deploy Vercel](https://img.shields.io/badge/Deploy-Vercel-000000?logo=vercel&logoColor=white)](https://my-portfolio-azure-beta-74.vercel.app)
+![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=nextdotjs)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js-3D-000000?logo=threedotjs&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-Animations-ff4ecd)
+
 Portfólio moderno, futurista e responsivo desenvolvido com Next.js, animações fluidas e experiências 3D.
+
+![Preview do Portfólio](./public/preview.svg)
 
 ## 🔗 Links
 
