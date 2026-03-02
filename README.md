@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Meu Portfólio — QA Engineer & Front-End Developer
 
-## Getting Started
+Portfólio moderno, futurista e responsivo desenvolvido com Next.js, animações fluidas e experiências 3D.
 
-First, run the development server:
+## 🔗 Links
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Produção: https://my-portfolio-azure-beta-74.vercel.app
+- Repositório: https://github.com/Fabianooliveirasilva/Meu_Portifolio
+
+## ✨ Destaques
+
+- Layout mobile-first e responsivo
+- Tema escuro por padrão + toggle dark/light
+- Estética neon + glassmorphism
+- Scroll progress indicator
+- Cursor customizado animado
+- Microinterações de hover
+- Animações com Framer Motion
+- Seções com efeito de entrada ao scroll
+- Seção 3D com Three.js (R3F + Drei)
+- Carrossel de projetos com Swiper
+- SEO metadata configurado
+
+## 🧱 Stack
+
+- Next.js (App Router)
+- React + TypeScript
+- Tailwind CSS (v4)
+- Framer Motion
+- Three.js + @react-three/fiber + @react-three/drei
+- Swiper
+- ESLint + Prettier
+
+## 📁 Estrutura
+
+```txt
+src/
+├── app/
+├── components/
+├── hooks/
+├── lib/
+├── sections/
+├── styles/
+└── types/
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Rodando localmente
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm install
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Abra: http://localhost:3000
 
-## Learn More
+## ✅ Qualidade
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run lint
+npm run build
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🌍 Deploy
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Deploy realizado na Vercel.
 
-## Deploy on Vercel
+Para novo deploy de produção:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npx vercel --prod --yes
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## ⚙️ Variáveis de ambiente
+
+Atualmente configurada:
+
+- `NEXT_PUBLIC_SITE_URL`
+
+> Variáveis `NEXT_PUBLIC_*` são públicas no client-side.
