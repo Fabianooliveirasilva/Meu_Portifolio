@@ -24,13 +24,13 @@ export function HeroSection() {
           transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
         >
           <p className="text-neon-blue mb-4 text-sm font-medium tracking-[0.2em] uppercase">
-            Portfolio 2026
+            2026 QA Engineer
           </p>
           <h1 className="text-foreground text-4xl leading-tight font-black sm:text-6xl">
             FABIANO <span className="text-neon-blue">OlIVEIRA SILVA</span>
           </h1>
           <p className="text-foreground/80 mt-4 max-w-xl text-lg sm:text-xl">
-            QA Engineer &amp; Full-Stack Developer
+            QA Engineer
           </p>
 
           <div className="mt-8 flex flex-wrap gap-3">

@@ -58,7 +58,7 @@ export const timeline = [
   },
   {
     year: "2026",
-    title: "3D Web Specialist",
+    title: "QA Engineer",
     description: "Experiências imersivas com WebGL para produtos digitais premium.",
   },
 ];
