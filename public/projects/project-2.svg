@@ -1,0 +1,6 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="700" rx="24" fill="#0b0b0b"/>
+  <circle cx="960" cy="170" r="180" fill="#00ff9d" fill-opacity="0.2"/>
+  <circle cx="200" cy="520" r="250" fill="#7b2ff7" fill-opacity="0.22"/>
+  <text x="80" y="560" fill="#eaeaea" font-size="82" font-family="Arial, sans-serif" font-weight="700">Neon Commerce</text>
+</svg>
