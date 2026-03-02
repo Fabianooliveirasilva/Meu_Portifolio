@@ -9,7 +9,7 @@
 
 Portfólio moderno, futurista e responsivo desenvolvido com Next.js, animações fluidas e experiências 3D.
 
-![Preview do Portfólio](./public/preview.svg)
+![Preview do Portfólio](https://image.thum.io/get/width/1400/crop/800/noanimate/https://my-portfolio-azure-beta-74.vercel.app)
 
 ## 🔗 Links
 
